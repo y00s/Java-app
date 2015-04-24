@@ -1,0 +1,15 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.example.java_01_3265_3808.FlightsList" >
+
+
+    
+    <item
+        android:id="@+id/my_flights_icon"
+        android:icon="@drawable/ic_menu_name"
+        android:orderInCategory="100"
+ 		android:title="@string/my_flights"
+        app:showAsAction="always"/>
+    
+</menu>

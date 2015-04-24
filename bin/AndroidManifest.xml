@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.java_02_3265_3808"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="11"
+        android:targetSdkVersion="19" />
+    <uses-permission android:name="android.permission.INTERNET"/>
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:persistent="false"
+        android:theme="@style/AppTheme"
+        android:vmSafeMode="false" >
+        <activity
+            android:name="control.splashscreen"
+            android:icon="@drawable/ic_launcher"
+            android:launchMode="standard"
+            android:theme="@style/Theme.AppCompat" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="control.LogIn_Screen"
+            android:icon="@drawable/ic_launcher"
+            android:label="@string/LogIn_ButtonTxt" android:theme="@style/Theme.AppCompat">
+        </activity>
+        <activity
+            android:name="control.Registretion"
+            android:icon="@drawable/ic_launcher" android:theme="@style/Theme.AppCompat">
+        </activity>
+        <activity
+            android:name="control.Flights_info"
+            android:icon="@drawable/ic_launcher" android:theme="@style/Theme.AppCompat">
+        </activity>
+        <activity android:name="control.LoadingProgressBar" android:theme="@style/Theme.AppCompat">
+        </activity>
+        <activity
+            android:name="control.FlightDetails"
+            android:label="@string/title_activity_flight_details" >
+        </activity>
+        <activity
+            android:name="control.My_flights"
+            android:label="@string/title_activity_my_flights" >
+        </activity>
+        <activity
+            android:name="control.PurchaseScreen"
+            android:label="@string/title_activity_purchase_screen" >
+        </activity>
+        <activity
+            android:name="control.TicketDetails"
+            android:label="@string/title_activity_ticket_details" >
+        </activity>
+    </application>
+
+</manifest>

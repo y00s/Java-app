@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@drawable/splash_image"
+    android:orientation="vertical"
+    >
+
+    <TextView
+        android:id="@+id/mainTV_SplashScreen"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="@string/splashTxt"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:textColor="@color/aqua"
+        android:textColorHint="@color/aqua"
+        android:textSize="@dimen/big_text_size" />
+
+    <TextView
+        android:id="@+id/subTV_SplashScreen"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="@string/splashSubTxt"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:textColor="@color/lime"
+        android:textSize="@dimen/medium_text_size"
+        android:textStyle="italic" />
+
+</LinearLayout>

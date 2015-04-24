@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:orientation="vertical" >
+
+        <EditText
+            android:id="@+id/fromEt"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:ems="10"
+            android:hint="From" >
+
+            <requestFocus />
+        </EditText>
+
+        <EditText
+            android:id="@+id/toEt"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:hint="To" />
+
+        <RadioGroup
+            android:id="@+id/lessGreatRadioGroup"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:orientation="horizontal" >
+
+            <RadioButton
+                android:id="@+id/gratherRb"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:checked="true"
+                android:text="Longer then:" />
+
+            <RadioButton
+                android:id="@+id/lessRb"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Shorter then:" />
+        </RadioGroup>
+
+        <EditText
+            android:id="@+id/lengthEt"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:ems="10"
+            android:hint="Minuts"
+            android:inputType="number" />
+
+    </LinearLayout>
+
+</LinearLayout>

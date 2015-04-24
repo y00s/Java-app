@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Java Project App</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="splashTxt">Java Project</string>
+    <string name="splashSubTxt">by Yosef &amp; Eder</string>
+    <string name="UserNameHint">User name...</string>
+    <string name="PassworsHint">Password</string>
+    <string name="LogIn_ButtonTxt">Log In</string>
+    <string name="signin_guestTxt">Guest</string>
+    <string name="signin_RegisterTxt">Register</string>
+    <string name="users_login">Already a user? Log In:</string>
+    <string name="fNameHint">First Name</string>
+    <string name="lNameHint">Last Name</string>
+    <string name="emailHint">E-MAIL</string>
+    <string name="phineHint"></string>
+    <string name="idHint">ID</string>
+    <string name="phoneHint">+972-5X-XXXXXXX</string>
+    <string name="addressHint">Address</string>
+    <string name="creditHint">Credit Card</string>
+    <string name="wellcomTxt">Wellcome!!</string>
+    <string name="BirthDayHint">Date of Birth</string>
+    <string name="submitTxt">Submit</string>
+    <string name="title_activity_flights_list">FlightsList</string>
+    <string name="slide_background">&lt;&lt; guest                     register>></string>
+    <string name="font_sans_serif_thin">sans-serif-thin</string>
+    <string name="guest_idecator">&lt; &lt; Guest</string>
+    <string name="register_idicator">Register > ></string>
+    <string name="title_activity_flight_details">Flight Details</string>
+    <string name="title_activity_new_user">NewUser</string>
+    <string name="title_activity_registretion">Registretion</string>
+    <string name="cleanBtnTxt">Clear</string>
+    <string name="ConfirmPasswordHint">Confirm Password</string>
+    <string name="EnterDetalisTxt">Please enter your details:</string>
+    <string name="LogIn_Label">Log In</string>
+    <string name="title_activity_flights_info">Flights info</string>
+    <string name="my_flights">My Flights</string>
+    <string name="title_activity_my_flights">My_flights</string>
+    <string name="nextFlightTxt">Next Flight in:</string>
+    <string name="buyTicketTxt">Buy it!</string>
+    <string name="title_activity_purchase_screen">PurchaseScreen</string>
+    <string name="kosherTXT">Kosher Food</string>
+    <string name="vegiTXT">Vegeterian Food</string>
+    <string name="meatTXT">Meat Food</string>
+    <string name="fishTXT">Fish Food</string>
+    <string name="windowTXT">Window</string>
+    <string name="halyTXT">Haly</string>
+    <string name="choseClassTXT">Please chose the class that you want to travel:</string>
+    <string name="choseSeatTXT">Please chose where you want to seat:</string>
+    <string name="choseFoodTXT">Please chose the type of meal that you would like:</string>
+    <string name="weghitTXT">Extra weight:</string>
+    <string name="emptyTxt"></string>
+    <string name="title_activity_ticket_details">TicketDetails</string>
+
+</resources>

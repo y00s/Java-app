@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<lint>
+    <issue id="NewApi">
+        <ignore path="src/com/example/java_02_3265_3808/FlightFragment.java" />
+    </issue>
+</lint>
